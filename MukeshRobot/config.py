@@ -17,16 +17,16 @@ class Config(object):
     API_ID = "14050586" # integer value, dont use ""
     API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = "1808943146" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "THE_VIP_BOY"
-    SUPPORT_CHAT = "TG_FRIENDSS"  # Your own group for support, do not add the @
+    OWNER_ID = "8150875959" # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "KING_BOTS_MAKER"
+    SUPPORT_CHAT = "AboutBotMaker"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001723893843
+        -1002524224601
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001723893843
+        -1002524224601
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
+    MONGO_DB_URI= "mongodb+srv://bairagixd:xHZnmMH5rNvLjk0K@cluster0.hcc5bcl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     LOAD = []
@@ -39,15 +39,15 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "1808943146")
+    DRAGONS = get_user_list("elevated_users.json", "8150875959")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "1808943146")
+    DEV_USERS = get_user_list("elevated_users.json", "8150875959")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("elevated_users.json", "1808943146")
+    DEMONS = get_user_list("elevated_users.json", "8150875959")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list("elevated_users.json", "1808943146")
+    TIGERS = get_user_list("elevated_users.json", "8150875959")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
-    DONATION_LINK = "https://t.me/the_vip_boy" # EG, paypal
+    DONATION_LINK = "https://t.me/AboutBotMaker" # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
