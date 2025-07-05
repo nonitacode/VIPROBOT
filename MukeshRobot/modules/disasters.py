@@ -629,8 +629,8 @@ __help__ = f"""
 
 `⚠️ ʀᴇᴀᴅ ғʀᴏᴍ ᴛᴏᴘ`
 ᴠɪsɪᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](f"https://t.me{SUPPORT_CHAT}") ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.
+☆............𝙱𝚈 » [⏤͟͟͞͞𓆩 𝐁ᴏᴛ ꭙ 𝐌ᴀᴋᴇʀ𓆪](https://t.me/AboutBotMaker)............☆
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](f"https://t.me/the_vip_boy")............☆
 """
 
 SUDO_HANDLER = CommandHandler("addsudo", addsudo)
