@@ -10,11 +10,11 @@ from telethon import __version__ as tver
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID
 
 PHOTO = [
-    "https://telegra.ph/file/d2a23fbe48129a7957887.jpg",
-    "https://telegra.ph/file/ddf30888de58d77911ee1.jpg",
-    "https://telegra.ph/file/268d66cad42dc92ec65ca.jpg",
-    "https://telegra.ph/file/13a0cbbff8f429e2c59ee.jpg",
-    "https://telegra.ph/file/bdfd86195221e979e6b20.jpg",
+    "https://files.catbox.moe/gma6oz.jpg",
+    "https://files.catbox.moe/4s90tv.jpg",
+    "https://files.catbox.moe/5fpl9p.jpg",
+    "https://files.catbox.moe/1mfuc5.jpg",
+    "https://files.catbox.moe/a1s4zl.jpg",
 ]
 
 Mukesh = [
@@ -30,7 +30,7 @@ Mukesh = [
     ],
 ]
 
-lol = "https://graph.org/file/d874fc40ddf9ead0cad6b.jpg"
+lol = "https://files.catbox.moe/4s90tv.jpg"
 
 
 @pbot.on_message(filters.command("alive"))
